@@ -1,12 +1,75 @@
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(img/purple-pink-cloudy-night.png);
+    background-size: cover;
+    background-position: 50%;
+}
+
+.container {
+    text-align: center;
+    background: #E37F9D;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(242, 239, 239, 0.893);
+    max-width: 500px;
+    width: 90%;
+}
+
+.profile {
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+}
+
+.profile h1 {
+    font-size: 40px;
+    margin: 10px 0 5px;
+    letter-spacing:1.4px;
+    text-shadow: 0.2rem 0.2rem 0.3rem white;
+}
+
+.profile h2 {
+    font-size: 25px;
+    margin: 10px 0 5px;
+    letter-spacing: 1.2px;
+    color: #000000;
+}
+
+.links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background: #642D96;
+    border-radius: 5px;
+    letter-spacing: 1.2px;
+    font-size: 20px;
+}
+
+.links a:hover {
+    background: #000000;
+}
+
+.links a:active {
+    transform: scale(0.98);
+}
+
 h1 {
     font-family: "Charm", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 100px;
-}
-
-body {
-  font-family: "Roboto", serif;
-  font-weight: 400;
-  font-style: normal;
 }
